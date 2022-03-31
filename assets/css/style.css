@@ -10,6 +10,7 @@ body {
 
 .header {
     padding: 20px;
+    flex-grow: inherit;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -70,6 +71,14 @@ p {
     margin-left: 25px;
 }
 
+#gohome a {
+    font-size:13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:oblique;
+    color:lightgrey;
+    text-align: justify;
+    float: right;
+}
 #content {
     width: 75%;
     display: inline-block;
@@ -85,6 +94,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    flex-wrap:inherit;
 }
 
 .benefit-lead {
@@ -155,6 +165,7 @@ p {
 
 .social-media-marketing {
     margin-bottom: 20px;
+    padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -198,3 +209,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
